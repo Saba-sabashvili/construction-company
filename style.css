@@ -295,8 +295,8 @@
   border: 1px solid white;
   border-radius: 50%;
   position: fixed;
-  right: 2.5%;
-  bottom: 22.5%;
+  right: 4.25%;
+  bottom: 25%;
   z-index: 1000;
   justify-content: center;
   align-items: center;
@@ -1289,10 +1289,6 @@
   * body .chat p {
     display: none;
   }
-  * body .uparrow {
-    bottom: 25%;
-    right: 4.25%;
-  }
   * body .container2 {
     height: 540px;
   }
@@ -1891,12 +1887,14 @@
     display: none;
   }
   * body .chat {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
+    right: 3.5%;
+    bottom: 2%;
     z-index: 1;
   }
   * body .chat .bi-chat-text-fill {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
   * body .chat p {
     display: none;
@@ -1922,7 +1920,7 @@
   }
   * body .container2 .box .left img {
     object-fit: cover;
-    -o-object-fit: contain;
+    object-position: center;
   }
   * body .container2 .box .right {
     width: 100%;

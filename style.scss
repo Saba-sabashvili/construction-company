@@ -2232,12 +2232,14 @@
             }
 
             .chat{
-                width: 60px;
-                height: 60px;
+                width: 50px;
+                height: 50px;
+                right: 3.5%;
+                bottom: 2%;
                 z-index: 1;
 
                 .bi-chat-text-fill{
-                    font-size: 1.7rem;
+                    font-size: 1.5rem;
                 }
 
                 p{
@@ -2266,7 +2268,7 @@
 
                         img{
                             object-fit: cover;
-                            -o-object-fit: contain;
+                            object-position: center;
                         }
                     }
 

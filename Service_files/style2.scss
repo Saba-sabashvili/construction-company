@@ -1638,8 +1638,10 @@
             }
 
             .chat{
-                width: 60px;
-                height: 60px;
+                width: 50px;
+                height: 50px;
+                right: 3.5%;
+                bottom: 2%;
                 z-index: 3;
 
                 .bi-chat-text-fill{
